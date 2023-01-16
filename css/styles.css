@@ -1,0 +1,67 @@
+body{
+  background: #daecec;
+}
+h1 {
+font-family: 'Pacifico', cursive;
+font-size: 5rem;
+padding: 3%;
+color: #395144;
+
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
+  color: #4E6C50;
+  line-height: 0.5;
+}
+
+h3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: #395144
+}
+
+h4 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.3rem;
+  color: #68947c;
+  line-height: 1.5;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+}
+
+
+
+nav {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  color: #4E6C50;
+  margin: 0 3% 0;
+}
+
+/* #image-main {
+position:absolute;
+top: 0;
+left: 0;
+z-index: -1;
+} */
+
+
+.copy {
+  background: #F0EBCE;
+}
+
+.border {
+  border: 5px;
+}
+
+.semkinchevi {
+  color: #68947c;
+}
