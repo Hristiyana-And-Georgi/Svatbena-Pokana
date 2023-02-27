@@ -66,6 +66,17 @@
     </div>
 
   <script>
+    const toggle = document.getElementById("checkboxPlusOne");
+    const spanPlusOne = document.getElementById("plusOne");
+
+    toggle.addEventListener("change", function() {
+      if (toggle.checked) {
+        spanPlusOne.style.display = "block";
+      } else {
+        spanPlusOne.style.display = "none";
+      }
+    });
+
 			const scriptURL = ''
 			const form = document.forms['contactform']
 		  
