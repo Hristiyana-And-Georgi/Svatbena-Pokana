@@ -18,4 +18,4 @@ checkboxPlusOne.addEventListener("checked", function() {
     document.getElementById("name+1").setAttribute("disabled");
     document.getElementById("menu+1").setAttribute("disabled");
   }
-})
+});
