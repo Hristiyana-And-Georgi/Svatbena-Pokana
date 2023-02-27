@@ -43,11 +43,12 @@
           <input type="number" class="form-control" placeholder="+(359)" name="number" id="phone" />
           <br>
           <br>
-          <input type="checkbox" class="form-check-input" placeholder="checkbox" name="checkbox" id="checkbox+1" value="=CHAR(10004)" />
+          <input type="checkbox" class="form-check-input" placeholder="checkbox" name="checkbox" id="checkboxPlusOne" value="=CHAR(10004)" />
           <label for="checkbox+1" class="form-check-label"> + 1 Придружител </label>
           <br>
           <br>
-          <input type="text" class="form-control" placeholder="Име и фамилия" name="name+1" id="name+1" disabled />
+          <span id="plusOne" display="none">
+            <input type="text" class="form-control" placeholder="Име и фамилия" name="name+1" id="name+1" disabled />
           <br>
           <select class="form-select" aria-label="Изберете меню" name="menu+1" disabled>
             <option selected disabled>Изберете меню</option>
@@ -55,6 +56,7 @@
             <option value="Вегетарианско">Вегетарианско</option>
           </select>
           <br>
+          </span>
           <input type="submit" name="" value="Изпрати" class="btn btn-dark" id="submit">
 
         </form>

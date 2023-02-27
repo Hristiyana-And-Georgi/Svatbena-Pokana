@@ -6,16 +6,13 @@ function handleClick() {
 
 data.append("email", document.getElementById("Form").value);
 
-var checkboxPlusOne = document.querySelector(".testcheck");
+const toggle = document.getElementById("checkboxPlusOne");
+const spanPlusOne = document.getElementById("plusOne");
 
-checkboxPlusOne.addEventListener("checked", function() {
-  if (checkboxPlusOne.checked){
-    alert("it works")
-    document.getElementById("name+1").removeAttribute("disabled");
-    document.getElementById("menu+1").removeAttribute("disabled");
+toggle.addEventListener("change", function() {
+  if (toggle.checked) {
+    textbox.style.display = "block";
   } else {
-    alert("No");
-    document.getElementById("name+1").setAttribute("disabled");
-    document.getElementById("menu+1").setAttribute("disabled");
+    textbox.style.display = "none";
   }
 });
