@@ -11,8 +11,8 @@ const spanPlusOne = document.getElementById("plusOne");
 
 toggle.addEventListener("change", function() {
   if (toggle.checked) {
-    textbox.style.display = "block";
+    spanPlusOne.style.display = "block";
   } else {
-    textbox.style.display = "none";
+    spanPlusOne.style.display = "none";
   }
 });
