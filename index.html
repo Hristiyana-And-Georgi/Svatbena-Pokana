@@ -28,10 +28,10 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-nav collapse navbar-collapse justify-content-center mt-3" id="navbarNav">
-        <a class="nav-link " href="#"> Покана</a>
-        <a class="nav-link " href="#"> Програма</a>
+        <a class="nav-link " href="#pokana"> Покана</a>
         <a class="nav-link " href="#kumove"> Кумове</a>
         <a class="nav-link " href="#shaferki"> Шаферки</a>
+        <a class="nav-link " href="#programa"> Програма</a>
         <a class=" btnAttendance btn bg-dark px-3 py-2" style="--bs-btn-hover-color: white; --bs-btn-color: #638a66;" href=""> Потвърди присъствие</a>
       </div>
     </div>
@@ -71,7 +71,7 @@
   </div>
 
 
-  <div id="kumove" class="second-container p-5 m-5">
+  <div id="kumove" class="second-container ">
     <div class="container text-center border border-1 border-dark border-opacity-50 px-5">
       <div class="row">
         <div class="col-lg-4 text-start my-5 border border-1 border-dark border-opacity-50 p-5">
@@ -87,14 +87,14 @@
     </div>
   </div>
 
-  <div id="shaferki" class="third-container py-5 m-5">
+  <div id="shaferki" class="third-container">
     <div class="container text-center border border-1 border-dark border-opacity-50 px-5">
       <div class="row flex-column-reverse flex-lg-row ">
         <div class="col-lg-7 ">
           <img style=" width:100%; position: relative;top: -122px;left: -102px;" class="mt-5 justify-content-end" id="image-program" src="images\shaferki.jpg" alt="">
         </div>
         <div class="col-lg-5 text-start my-1 border border-dark border-opacity-50 my-5 p-5">
-          <h3 class="mb-4">Шаферки</h3>
+          <h3 class="mb-5">Шаферки</h3>
           <div class="mt-6">
             <h4>Станислава Жекова</h4>
             <h4>Ваяна Качакова</h4>
@@ -104,21 +104,42 @@
       </div>
     </div>
   </div>
+
+  <div id="programa" class="second-container">
+    <div class="container text-center border border-1 border-dark border-opacity-50 px-5">
+      <div class="row">
+        <div class="col-lg-5 text-start my-5 border border-1 border-dark border-opacity-50 p-5">
+          <h3 class="mb-5">Програма</h3>
+          <div class="mt-5">
+            <h3 class="programa">
+              <p><strong>12:00</strong> Събиране в младоженеца</p>
+              <p><strong>13:00</strong> Взимане на Кумове</p>
+              <p><strong>14:00</strong> Взимане на Булка</p>
+              <p><strong>15:30</strong> Фотосесия</p>
+              <p><strong>16:30</strong> Коктейл в градината</p>
+              <p><strong>17:30</strong> Граждански брак</p>
+              <p><strong>19:00</strong> Влизане в ресторанта</p>
+          </h3>
+          </div>
+        </div>
+        <div class="col-lg-7 ">
+          <img style=" width:100%; position: relative;top: -122px;left: 102px;" class="mt-5 justify-content-end" id="image-program" src="images\azigeorgi2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 
-  <footer>
-
-  </footer>
-
-      <script type="module">
+    <script type="module">
         import * as bootstrap from 'bootstrap'
 
         new bootstrap.Popover(document.getElementById('popoverButton'))
       </script>
 
 
-<script src="index.js" charset="utf-8"></script>
+  <script src="index.js" charset="utf-8"></script>
 
 </body>
 
