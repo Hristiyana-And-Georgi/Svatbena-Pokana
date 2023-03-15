@@ -80,13 +80,7 @@
 			const scriptURL = ''
 			const form = document.forms['contactform']
 		  
-			form.addEventListener('submit', e => {
-			 e.preventDefault()
-			 fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-			.then(response => window.location.href = "thankyoupage.html")
-			.then(() => {  window.location.reload(); })
-			.catch(error => console.error('Error!', error.message))
-			})
+
 
 		  </script>
   
