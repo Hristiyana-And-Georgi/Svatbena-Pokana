@@ -77,15 +77,10 @@
       }
     });
 
-const scriptURL = "https://script.google.com/macros/s/AKfycby1n7nZoFyzrLQZ07_HbmltsC1wX0QF2Mw8TymWYK7nQA690pY9b-muWG1NtGEPxfx6gA/exec"
-const form = document.forms['contactform']
 
-form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => window.location.href = "thankyoupage.html")
-      .catch(error => console.error('Error!', error.message))
-});
+function handleClick2() {
+  window.location.href = "thankyoupage.html";
+}
 	  
  </script>
   
