@@ -82,11 +82,8 @@
 	document.querySelector(".btn").addEventListener("click", handleClick2);
 
 	function handleClick2() {
-	 e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => window.location.href = "thankyoupage.html")
-      .catch(error => console.error('Error!', error.message))
-}
+	window.location.replace("thankyoupage.html");
+	}
 	  
  </script>
   
