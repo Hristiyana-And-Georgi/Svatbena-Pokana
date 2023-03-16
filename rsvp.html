@@ -79,11 +79,14 @@
 
 document.querySelector(".btn").addEventListener("click", handleClick2);
 
-function handleClick2() {
-  window.location.replace("thankyoupage.html");
-}
-
-		  </script>
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => window.location.href = "thankyoupage.html")
+      .catch(error => console.error('Error!', error.message))
+});
+	  
+ </script>
   
 <!--   <script src="index.js" charset="utf-8"></script> -->
 
