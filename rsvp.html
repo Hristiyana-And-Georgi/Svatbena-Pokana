@@ -82,7 +82,10 @@
 	document.querySelector(".btn").addEventListener("click", handleClick2);
 
 	function handleClick2() {
-	window.open("thankyoupage.html");
+	    e.preventDefault()
+    fetch(https://script.google.com/macros/s/AKfycby1n7nZoFyzrLQZ07_HbmltsC1wX0QF2Mw8TymWYK7nQA690pY9b-muWG1NtGEPxfx6gA/exec, { method: 'POST', body: new FormData(form)})
+      .then(response => window.location.href = "thankyoupage.html")
+      .catch(error => console.error('Error!', error.message))
 	}
 	  
  </script>
