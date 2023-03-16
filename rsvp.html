@@ -84,8 +84,9 @@
 
 	function handleClick2(event) {
  	event.preventDefault();
-	fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-	location.replace("thankyoupage.html");
+	fetch(scriptURL)
+	.then(response => location.replace("thankyoupage.html");
+	.catch(error => console.error('Error!', error.message))      
 }
 	  
  </script>
