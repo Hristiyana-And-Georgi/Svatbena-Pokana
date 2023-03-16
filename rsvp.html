@@ -81,9 +81,11 @@
 	  
 	document.querySelector(".btn").addEventListener("click", handleClick2);
 
-	function handleClick2() {
-  	window.open("thankyoupage.html");
-	}
+
+	function handleClick2(event) {
+ 	event.preventDefault();
+	location.reload("thankyoupage.html");
+}
 	  
  </script>
   
