@@ -18,24 +18,25 @@ h2 {
 
 h3 {
   font-family: 'Pacifico', cursive;
-  font-size: 3rem;
+  font-size: 5.5rem;
   color: #395144
 }
 
 h4 {
   font-family: 'Pacifico', cursive;
-  font-size: 2.3rem;
+  font-size: 3rem;
   color: #68947c;
   line-height: 1.5;
 }
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.65rem;
+  font-size: 2rem;
+    color: #395144;
 }
 
 .btnAttendance {
-  font-size: 1.4rem; 
+  font-size: 1.4rem;
 }
 
 nav {
