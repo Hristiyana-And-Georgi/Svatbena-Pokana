@@ -38,21 +38,14 @@ p {
 
 nav {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  background-color: #daecec;
 }
 
 .nav-link {
   color: #4E6C50;
   margin: 0 3% 0;
 }
-
-/* #image-main {
-position:absolute;
-top: 0;
-left: 0;
-z-index: -1;
-} */
-
 
 .copy {
   background: #F0EBCE;
@@ -66,14 +59,7 @@ z-index: -1;
   color: #68947c;
 }
 
-#kumove {
- margin: 150px;
-}
 
-#shaferki {
-  margin: 150px;
-}
-
-#programa {
- margin: 150px;
+.razdel {
+   margin: 10rem 2rem;
 }
