@@ -31,10 +31,12 @@ h4 {
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
 }
 
-
+.btnAttendance {
+  font-size: 1.4rem; 
+}
 
 nav {
   font-family: 'Source Sans Pro', sans-serif;
