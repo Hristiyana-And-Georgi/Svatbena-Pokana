@@ -29,14 +29,25 @@ h4 {
   line-height: 1.5;
 }
 
+h5 {
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  padding: 3%;
+  color: #395144;
+}
+
+h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #68947c;
+  line-height: 1.5;
+}
+
 p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2rem;
     color: #395144;
-}
-
-.btnAttendance {
-  font-size: 1.4rem;
 }
 
 nav {
@@ -44,6 +55,14 @@ nav {
   font-size: 1.5rem;
   background-color: #daecec;
 }
+
+
+
+.btnAttendance {
+  font-size: 1.4rem;
+}
+
+
 
 .nav-link {
   color: #4E6C50;
@@ -65,4 +84,10 @@ nav {
 
 .razdel {
    margin: 10rem 2rem;
+}
+
+.tuklink {
+  font-size: 1.8rem;
+  color: #4E6C50;
+
 }
