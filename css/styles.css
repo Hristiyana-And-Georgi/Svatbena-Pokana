@@ -3,7 +3,7 @@ body{
 }
 h1 {
 font-family: 'Pacifico', cursive;
-font-size: 5rem;
+font-size: 6rem;
 padding: 3%;
 color: #395144;
 
@@ -11,20 +11,20 @@ color: #395144;
 
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #4E6C50;
   line-height: 0.5;
 }
 
 h3 {
   font-family: 'Pacifico', cursive;
-  font-size: 5.5rem;
+  font-size: 6rem;
   color: #395144
 }
 
 h4 {
   font-family: 'Pacifico', cursive;
-  font-size: 3rem;
+  font-size: rem;
   color: #68947c;
   line-height: 1.5;
 }
@@ -46,16 +46,15 @@ h6 {
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2rem;
+  font-size: 2.3rem;
     color: #395144;
 }
 
 nav {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.5rem;
+  font-size: 40px;
   background-color: #daecec;
 }
-
 
 .btnAttendance {
   font-size: 1.4rem;
@@ -65,6 +64,7 @@ nav {
   color: #4E6C50;
   margin: 0 3% 0;
 }
+
 
 .copy {
   background: #F0EBCE;
