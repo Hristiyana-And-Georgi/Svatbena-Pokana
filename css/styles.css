@@ -57,12 +57,9 @@ nav {
 }
 
 
-
 .btnAttendance {
   font-size: 1.4rem;
 }
-
-
 
 .nav-link {
   color: #4E6C50;
@@ -89,5 +86,12 @@ nav {
 .tuklink {
   font-size: 1.8rem;
   color: #4E6C50;
+}
 
+.card {
+  background: none;
+}
+
+.card-text {
+  font-weight: bold;
 }
