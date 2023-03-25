@@ -52,9 +52,11 @@ p {
 
 nav {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 30px;
+/* font-size: 2px; */
   background-color: #daecec;
 }
+
+
 
 
 .btnAttendance {
@@ -64,6 +66,7 @@ nav {
 .nav-link {
   color: #4E6C50;
   margin: 0 3% 0;
+
 }
 
 
@@ -95,4 +98,16 @@ nav {
 
 .card-text {
   font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+.nav-link {
+font-size: 25px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.nav-link {
+font-size: 50px;
+}
 }
