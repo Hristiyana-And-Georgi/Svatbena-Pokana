@@ -38,7 +38,7 @@
           <br>
           <select class="form-select" aria-label="Default select example" name="menu">
             <option selected disabled>Изберете меню</option>
-            <option value="Местно">Месно</option>
+            <option value="Месно">Месно</option>
             <option value="Вегетарианско">Вегетарианско</option>
           </select>
           <br>
@@ -50,16 +50,44 @@
           <br>
           <br>
           <span id="plusOne" style="display:none">
-            <input type="text" class="form-control" placeholder="Име и фамилия" name="name+1" id="name+1" />
+            <input type="text" class="form-control" placeholder="Име и фамилия на придружителя" name="name+1" id="name+1" />
           <br>
           <select class="form-select" aria-label="Изберете меню" name="menu+1">
             <option selected disabled>Изберете меню</option>
-            <option value="Месно">Местно</option>
+            <option value="Месно">Месно</option>
             <option value="Вегетарианско">Вегетарианско</option>
           </select>
           <br>
           </span>
+
+          <input type="checkbox" class="form-check-input" placeholder="checkbox" name="checkboxChildren" id="checkboxPlusChildren" value="=CHAR(10004)" />
+          <label for="checkboxChildren" class="form-check-label"> + Деца </label>
+          <br>
+          <span id="PlusChildren" style="display:none">
+
+            <br>
+            <select class="form-select" aria-label="Брой деца" name="childrenCount">
+              <option selected disabled>Брой деца</option>
+              <option value="1">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="2">3</option>
+            </select>
+            <br>
+            <select class="form-select" aria-label="Меню за децата" name="menuChildren">
+              <option selected disabled>Изберете меню</option>
+              <option value="Детско">Детско</option>
+              <option value="Месно">За възрастни - Месно</option>
+              <option value="Вегетарианско">За възрастни - Вегетарианско</option>
+            </select>
+
+            <br>
+
+          </span>
+
+          <br>
           <input type="submit" name="" value="Изпрати" class="btn btn-dark" id="submit">
+
 
         </form>
 
@@ -79,6 +107,19 @@
         spanPlusOne.style.display = "none";
       }
     });
+
+
+    const toggle2 = document.getElementById("checkboxPlusChildren");
+    const spanPlusChildren = document.getElementById("PlusChildren");
+
+    toggle2.addEventListener("change", function() {
+      if (toggle2.checked) {
+        spanPlusChildren.style.display = "block";
+      } else {
+        spanPlusChildren.style.display = "none";
+      }
+    });
+
 
 
 document.querySelector(".btn").addEventListener("click", handleClick2);
