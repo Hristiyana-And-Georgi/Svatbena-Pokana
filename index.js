@@ -4,11 +4,11 @@ function handleClick() {
   window.open("rsvp.html");
 }
 
-document.querySelector(".btn").addEventListener("click", handleClick2);
+// document.querySelector(".btn").addEventListener("click", handleClick2);
 
-function handleClick2() {
-  window.open("thankyoupage.html");
-}
+// function handleClick2() {
+//   window.open("thankyoupage.html");
+// }
 
 
 // const scriptURL = ''
