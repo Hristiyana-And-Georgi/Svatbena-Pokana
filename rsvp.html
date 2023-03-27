@@ -119,21 +119,23 @@
         spanPlusChildren.style.display = "none";
       }
     });
-
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwY-F_losvRRnxK5I1YMtWzrleEP2rOyxATuLdqpfPit2lKWPbO_5_nRWyZubeJE6dngw/exec'
+  </script>
+  <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby1n7nZoFyzrLQZ07_HbmltsC1wX0QF2Mw8TymWYK7nQA690pY9b-muWG1NtGEPxfx6gA/exec'
+        const thankYouURL = 'thankyoupage.html'
         const form = document.forms['contactform'];
 
         form.addEventListener('submit', e => {
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
               .then(response => response.json())
-  .then(data => {
-    if (data.result === 'success') {
-      window.location.href = data.redirect;
-    } else {
-      console.log(data.error);
-    }
-  })
+              .then(data => {
+                if (data.result === 'success') {
+                  window.location.href = thankYouUrl;
+                } else {
+                  console.log(data.error);
+                }
+              })
 
             form.reset();
 
