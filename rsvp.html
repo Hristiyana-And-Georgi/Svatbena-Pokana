@@ -131,7 +131,7 @@
               .then(response => response.json())
               .then(data => {
                 if (data.result === 'success') {
-                  window.location.href = thankYouUrl;
+                  window.location.href = 'thankyoupage.html';
                 } else {
                   console.log(data.error);
                 }
